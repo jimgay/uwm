@@ -38,7 +38,7 @@ Radiant::Initializer.run do |config|
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
-    :session_key => '_radiant_session',
+    :session_key => '_uwm_session',
     :secret      => '35408ee2b557f0665a125434160c284356593bb8'
   }
   
@@ -82,5 +82,9 @@ Radiant::Initializer.run do |config|
     # Response Caching Defaults
     ResponseCache.defaults[:directory] = ActionController::Base.page_cache_directory
     ResponseCache.defaults[:logger]    = ActionController::Base.logger
+    ResponseCache.defaults[:expire_time] = 12.hours
+    if Radiant::Config.table_exists?
+      Radiant::Config['admin.title'] = 'United World Mission'
+      Radiant::Config['admin.subtitle'] = 'A church in every town, village and neighborhood!'
   end
 end

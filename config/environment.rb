@@ -84,7 +84,12 @@ Radiant::Initializer.run do |config|
     ResponseCache.defaults[:logger]    = ActionController::Base.logger
     ResponseCache.defaults[:expire_time] = 12.hours
     if Radiant::Config.table_exists?
-      Radiant::Config['admin.title'] = 'United World Mission'
-      Radiant::Config['admin.subtitle'] = 'A church in every town, village and neighborhood!'
+      Radiant::Config['admin.title']                  = 'United World Mission'
+      Radiant::Config['admin.subtitle']               = 'A church in every town, village and neighborhood!'
+      Radiant::Config['defaults.page.parts']          = 'body'
+      Radiant::Config['defaults.page.filter']         = 'Textile'
+      Radiant::Config['local.timezone']               = 'Eastern Time (US & Canada)'
+      Radiant::Config['page.edit.published_date?']    = true
+    end
   end
 end

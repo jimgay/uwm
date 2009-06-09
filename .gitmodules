@@ -4,3 +4,6 @@
 [submodule "vendor/extensions/dashboard"]
 	path = vendor/extensions/dashboard
 	url = git://github.com/saturnflyer/radiant-dashboard-extension.git
+[submodule "vendor/extensions/textile_editor"]
+	path = vendor/extensions/textile_editor
+	url = git://github.com/jgarber/radiant-textile_editor-extension.git

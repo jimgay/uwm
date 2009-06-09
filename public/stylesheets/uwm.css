@@ -1,0 +1,78 @@
+.focus{ width: 800px; margin: 0 auto; position: relative;}
+
+.personal { background: #fff; height: 7px; width: 100%; overflow: visible;}
+.anchorBox { height: 26px; position: absolute; right: 0;}
+.navList, ul.navList li {list-style: none;}
+.navList li {display: inline;}
+.navList a { text-decoration: none; color: #000;}
+
+.personalNav { background: #fff; padding: 8px 3px 3px;}
+.personalNav a { border-top: 3px solid #fff; padding: 8px 3px 3px; text-transform: uppercase; font-size: 0.9em;}
+.personalNav a:hover { border-top: 3px solid #8c0019; text-decoration: none;}
+
+.head { height: 104px;}
+.subdued { background: url("../images/bg/head.png") repeat-x left top; }
+.divider { border-bottom: 5px solid #000;}
+.logo { height: 60px; margin-top: 23px;}
+
+.nav { height: 47px; margin-top: 37px;}
+.nav ul { padding: 0;}
+.nav li { float: left; text-align: right; font-size: 0.8em; margin: 0 10px;}
+.nav a { padding-right: 10px; display: block; border-right: 2px solid #333; padding: 6px 10px 6px 0}
+.nav a:hover, .nav a.selected { color: #ac001b; border-color: #ac001b;}
+.nav a.selected { border-right-width: 3px;}
+.sectionName { font-size: 2em; display: block; line-height: 1; text-transform: capitalize;}
+
+.top { overflow: visible;}
+.focalPoint { background: #341013 url("../images/bg/homeFocalPoint.jpg") no-repeat center top; }
+.focalPointAlt1 { background-color: #1b401e; background-image: url("../images/bg/green.jpg");}
+.focalPointAlt2 { background-color: blue; background-image: url("../images/bg/blue.jpg");}
+.focalPointAlt3 { background-color: orange; background-image: url("../images/bg/orange.jpg");}
+
+.focalPoint .nav a {color: #ac001b; border-color: #ac001b;}
+.focalPoint .nav a:hover, .focalPoint .nav a.selected {color: #fff; border-color: #fff;}
+
+.intro { height: 148px; overflow: visible;}
+.homeIntro { height: auto; overflow: hidden; padding-bottom: 50px; line-height: 1.4;}
+.homeIntro .focus { width: 760px;}
+.title { margin-top: 70px; overflow: hidden;}
+.title, .title * { color: #fff; padding: 0;}
+.introImage { position: absolute; right: 0; height: 180px; z-index: 999; width: 100%; text-align: right; }
+.introImage img { float: right;}
+.detail { border-width: 1px; border-style: solid; border-color: #ccc; border-left: 0; border-right: 0;}
+
+.welcome { color: #fff; border-color: #fff;}
+.welcome h1 { color: #fff; font-size: 4.5em;}
+
+.content {color: #777; background: url("../images/bg/content.png") repeat-x left top; padding-top: 35px; clear: both;}
+.content { line-height: 1.4; }
+.content p img { float: left; margin: 0 10px 10px 0;}
+.related h2 { margin: 0 0 15px 0; }
+.relatedBox { background: #ed900f; color: #fff; margin-bottom: 10px; }
+.alternate1 { background: #419729;}
+.alternate2 { background: #007899;}
+.relatedBox a { color: #fff;}
+.relatedBox p { font-size: 0.8em;}
+.spaced { margin: 3px;}
+.full { height: 100%;}
+.branded1 { background: #e0860b url("../images/bg/orange_logo.png") no-repeat right top; }
+.branded2 { background: #326430 url("../images/bg/green_logo.png") no-repeat right top; }
+.branded3 { background: #004958 url("../images/bg/blue_logo.png") no-repeat right top; }
+
+.breadcrumbs {font-size: 0.9em; text-transform: capitalize; margin: 0 0 30px 10px;}
+.breadcrumbs, .breadcrumbs a { color: #999; text-decoration: none;}
+.breadcrumbs a.selected { color: #444; }
+
+.localNavList { border-top: 1px solid #91928e; padding: 0; margin-right: 10px; font-size: 1.2em;}
+.localNavList li { border-bottom: 1px solid #91928e; margin: 0;}
+.localNavList a { color: #424343; padding: 6px 3px; display: block; text-decoration: none; text-transform: capitalize;}
+.localNavList a:hover, .localNavList .selected { color: #ac001b;}
+.localNavList li.selected { border-bottom: 2px solid #ac001b;}
+
+.localNavSubList { font-size: 0.92em;}
+.localNavSubList li { border: 0; margin-left: 20px;}
+.localNavSubList a {padding: 5px 0;}
+
+.footer { background: #000; color: #444; text-align: right; padding: 20px 0; margin-top: 20px;}
+.footer a { color: #444; text-decoration: none;}
+.footer p { margin: 0; padding: 2px 0; font-size: 0.9em;}

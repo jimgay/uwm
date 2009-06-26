@@ -1,5 +1,10 @@
-# Uncomment this if you reference any of your controllers in activate
-require_dependency 'application'
+begin
+  # Radiant 0.8.0 / Rails 2.3
+  require_dependency 'application_controller'
+rescue MissingSourceFile
+  # pre Radiant 0.8.0 / pre Rails 2.3
+  require_dependency 'application'
+end
 
 class TextileEditorExtension < Radiant::Extension
   version "2.0"

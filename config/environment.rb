@@ -25,7 +25,7 @@ Radiant::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
     :session_key => '_uwm_session',
-    :secret      => '1997749a4d3d60157774ed97bc8c53fffc0c1d12'
+    :secret      => 'a78a96546796879d452144f52e919f32b8bc3f06'
   }
 
   # Comment out this line if you want to turn off all caching, or
